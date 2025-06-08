@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+ body {margin: 0;}
+ #modal{display:none;}
+ #iul4sd{text-align:center;color:snow;}
+ .main-banner.wow.fadeIn{background-color:#222831;}
+ .header-area.header-sticky.wow.slideInDown{background-color:#060606;}
+ .about-us.section{background-color:#222831;}
+ #i267jg{color:#fbfafa;}#ijh2of{color:#fbfbfb;}
+ #newsletter{background-color:#222831;}
+#iflv{background-color:#222831;}#igurn{background-color:#060606;}
+#i2pl8{color:#fbf6f6;}
+#iukqm{color:#fdfbfb;}
+.active{color:#fbf8f8;}
+.col-lg-6{text-align:left;}
+.about-us:after {
+   
+    height: 1132px;
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+}

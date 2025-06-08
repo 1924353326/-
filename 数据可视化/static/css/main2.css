@@ -1,0 +1,167 @@
+
+body {
+margin:0;
+padding:0;
+ background: url(../images/bg.jpg) no-repeat #000;
+background-size:cover;
+    }
+
+.button{
+background-color:rgba(149, 54, 179, 0.716);
+border-radius: 7px;
+padding:1.5px 15px;
+}
+
+
+
+.panel::before {
+position: absolute;
+top: 0;
+left: 0;
+width: 10px;
+height: 10px;
+border-left: 2px solid #02a6b5;
+border-top: 2px solid #02a6b5;
+content: "";
+}
+.panel::after {
+position: absolute;
+top: 0;
+right: 0;
+width: 10px;
+height: 10px;
+border-right: 2px solid #02a6b5;
+border-top: 2px solid #02a6b5;
+content: "";
+}
+
+.panel .panel-footer {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+}
+.panel .panel-footer::before {
+position: absolute;
+left: 0;
+bottom: 0;
+width: 10px;
+height: 10px;
+border-left: 2px solid #02a6b5;
+border-bottom: 2px solid #02a6b5;
+content: "";
+}
+.panel .panel-footer::after {
+position: absolute;
+bottom: 0;
+right: 0;
+width: 10px;
+height: 10px;
+border-right: 2px solid #02a6b5;
+border-bottom: 2px solid #02a6b5;
+content: "";
+}
+
+    *{
+        margin:0;
+    }
+
+    #l1{
+      position: absolute;
+      width: 99.85%;
+      height: 100%;
+      top: 0;
+      left: 0.15%;
+          opacity: 0.9;
+      }
+    #vl1{
+      position: absolute;
+      width: 57%;
+      height: 47%;
+      top: 2%;
+      left: 1%;
+          opacity: 0.9;
+      }
+
+    #l2{
+    position: absolute;
+    width: 99.85%;
+    height: 100%;
+    top: 0;
+    left: 0.15%;
+      opacity: 0.9;
+    }
+
+    #vl2{
+    position: absolute;
+    width: 57%;
+    height: 47%;
+    top: 51%;
+    left: 1%;
+       opacity: 0.9;
+    }
+
+    #r1{
+    position: absolute;
+    width: 99.85%;
+    height: 100%;
+    top: 0;
+    left: 0.15%;
+        opacity: 0.9;
+    }
+    #vr1{
+    position: absolute;
+    width: 40%;
+    height: 45%;
+    top: 2%;
+    left: 59%;
+        opacity: 0.9;
+    }
+
+    #r2{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 0;
+    left: 10px;
+         opacity: 0.9;
+    }
+    #r2p{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    left: 60%;
+        opacity: 0.9;
+    }
+    #vr2{
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    top: 49%;
+    left: 59%;
+      opacity: 0.9;
+    }
+
+    #r4{
+    position: absolute;
+    width: 99.85%;
+    height: 100%;
+    top: 0;
+    left: 0.15%;
+         opacity: 0.9;
+
+    }
+    #vr4{
+    position: absolute;
+    width: 40%;
+    height: 45%;
+    top: 51%;
+    left: 59%;
+    opacity: 0.9;
+
+    }
+
+
+
+
